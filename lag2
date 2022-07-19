@@ -1,0 +1,15 @@
+by Redo#1337
+
+Copy this and paste ur script.
+
+
+
+
+
+
+local ReplicatedStorage = game:GetService'ReplicatedStorage'
+local SpawnMe = ReplicatedStorage.Events.SpawnMe
+
+for _ = 1,3000 do
+  SpawnMe:FireServer()
+end
